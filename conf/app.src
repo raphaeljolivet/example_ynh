@@ -1,6 +1,6 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=http://assets.withknown.com/releases/known-0.9.9.tgz
+SOURCE_SUM=e133b542a3f94a11bc62faba56b22f8e62d488d53a8352b5218e0d34a0b8c4f5
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
+SOURCE_FILENAME=known-0.9.9.tgz

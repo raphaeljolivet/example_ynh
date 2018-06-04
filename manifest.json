@@ -1,23 +1,23 @@
 {
-    "name": "YunoHost example app",
-    "id": "ynhexample",
+    "name": "Known",
+    "id": "ynhknown",
     "packaging_format": 1,
     "description": {
-        "en": "Example package for YunoHost application.",
-        "fr": "Exemple de package d’application pour YunoHost."
+        "en": "Known is self hosted publishing / social media.",
+        "fr": "Known est un système de publication / média social auto hébergé."
     },
     "version": "1.0",
-    "url": "https://example.com",
+    "url": "https://withknown.com/",
     "license": "free",
     "maintainer": {
-        "name": "John doe",
-        "email": "john.doe@example.com",
-        "url": "http://example.com"
+        "name": "Raphael Jolivet",
+        "email": "contact@raphael-jolivet.name",
+        "url": "http://raphael-jolivet.name"
     },
     "requirements": {
         "yunohost": ">= 2.7.2"
     },
-    "multi_instance": true,
+    "multi_instance": false,
     "services": [
         "nginx",
         "php5-fpm",
@@ -41,8 +41,8 @@
                     "en": "Choose a path for ynhexample",
                     "fr": "Choisissez un chemin pour ynhexample"
                 },
-                "example": "/example",
-                "default": "/example"
+                "example": "/known",
+                "default": "/known"
             },
             {
                 "name": "admin",

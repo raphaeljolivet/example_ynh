@@ -1,7 +1,15 @@
 # Known packaged for YunoHost
 
+**Known** is a personnal microbloging app.
+This repository packages it for **Yunohost** 
+
 - [Yunohost project](https://yunohost.org)
-- [Exemple app website](https://example.com)
+- [Known](https://withknown.com)
 
-[Known](https://withknown.com/) is a slef hosted publishing platform and social media. 
+# Instructions
 
+Known can only be installed at the root (/) of a dedicated sub-domain.
+
+* Install known with Yunohost installer (providing the URL of this Github repo).
+* Go to your fresh installation http://known.my-doamin.example/
+* Follow the instructions for creating a new user

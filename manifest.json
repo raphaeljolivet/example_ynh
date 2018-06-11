@@ -29,8 +29,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain name for ynhexample",
-                    "fr": "Choisissez un nom de domaine pour ynhexample"
+                    "en": "Choose a dedicated domain name for Known",
+                    "fr": "Choisissez un nom de domaine dédié pour Known"
                 },
                 "example": "example.com"
             },
@@ -38,20 +38,11 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for ynhexample",
-                    "fr": "Choisissez un chemin pour ynhexample"
+                    "en": "Choose a path for Known (only / supported by now",
+                    "fr": "Choisissez un chemin pour Known (seul / est supporté)"
                 },
-                "example": "/known",
-                "default": "/known"
-            },
-            {
-                "name": "admin",
-                "type": "user",
-                "ask": {
-                    "en": "Choose an admin user",
-                    "fr": "Choisissez l’administrateur"
-                },
-                "example": "johndoe"
+                "example": "/",
+                "default": "/"
             },
             {
                 "name": "is_public",
@@ -61,15 +52,6 @@
                     "fr": "Est-ce une application publique ?"
                 },
                 "default": true
-            },
-            {
-                "name": "language",
-                "ask": {
-                    "en": "Choose the application language",
-                    "fr": "Choisissez la langue de l'application"
-                },
-                "choices": ["fr", "en"],
-                "default": "fr"
             }
         ]
     }
